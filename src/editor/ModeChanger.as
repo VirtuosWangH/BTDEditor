@@ -1,0 +1,1 @@
+﻿package editor{    import editor.modes.BaseMode;    import editor.modes.IDrawMode;		public class ModeChanger {				private var _mode:IDrawMode;				public function get mode():IDrawMode{			return _mode;		}				public function change(mode:IDrawMode):void{			_mode = mode;		}				public function ModeChanger(){			_mode = new BaseMode();		}			}}
