@@ -22,3 +22,4 @@ var instance18:QuickObject = sim.addCircle({x:8.67, y:2, radius:0.33, density:1}
 var instance19:QuickObject = sim.addCircle({x:10.33, y:2, radius:0.33, density:1});
 
 var auto3:BaseObject = sim.addPoly({x:3.36, y:2.98, verts:[[0,0.19,0.23,0,1.86,0.1,2.19,1.4,0.9,3.48]], angle: 0, density:1});
+// joints:
