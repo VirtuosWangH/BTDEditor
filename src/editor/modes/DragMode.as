@@ -1,0 +1,2 @@
+﻿package editor.modes{	import editor.commonData.DrawingType;
+				public class DragMode extends BaseMode {				public function DragMode(){					}				override public function toString():String {			return DrawingType.DRAG;		}		 	}}

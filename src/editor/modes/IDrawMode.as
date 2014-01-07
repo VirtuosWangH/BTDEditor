@@ -1,0 +1,1 @@
+﻿package editor.modes{				public interface IDrawMode{				function reset():void;		function start(main:Main):void;		function run():void;		function end():void;		function toString():String;	}}

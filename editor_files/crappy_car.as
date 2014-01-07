@@ -1,0 +1,25 @@
+var auto4:QuickObject = sim.addCircle({x:5.2, y:1.77, radius:0.45, density:1});
+var auto5:QuickObject = sim.addCircle({x:5.63, y:3.4, radius:0.38, density:1});
+var auto6:QuickObject = sim.addCircle({x:7, y:1.37, radius:0.42, density:1});
+var auto7:QuickObject = sim.addCircle({x:8.5, y:2.6, radius:0.43, density:1});
+var auto8:QuickObject = sim.addCircle({x:7.63, y:4.5, radius:0.47, density:1});
+var auto9:QuickObject = sim.addCircle({x:9.4, y:4.23, radius:0.48, density:1});
+var auto10:QuickObject = sim.addCircle({x:7.03, y:2.87, radius:0.34, density:1});
+var auto24:QuickObject = sim.addBox({x:16.95, y:10.18, width:10.23, height:0.43, angle: -0.698, density:0});
+var auto26:QuickObject = sim.addPoly({x:19.27, y:13.3, verts:[[4.23,0,4.17,4,0,3.83]], angle: 0, density:1});
+var auto23:QuickObject = sim.addBox({x:6.53, y:6.3, width:7.47, height:0.4, angle: 0.524, density:0});
+var auto26:QuickObject = sim.addBox({x:8.97, y:16.82, width:2.4, height:0.37, angle: 0.977, density:0});
+var auto25:QuickObject = sim.addCircle({x:3.8, y:16.9, radius:4.85, density:0});
+// joints:
+var auto11:QuickObject = sim.addJoint({a:auto10.body, b:auto4.body, x1:7.1, y1:2.9, x2:5.2, y2:1.77});
+var auto12:QuickObject = sim.addJoint({a:auto10.body, b:auto6.body, x1:7.03, y1:2.9, x2:7.03, y2:1.37});
+var auto13:QuickObject = sim.addJoint({a:auto10.body, b:auto7.body, x1:7.03, y1:2.9, x2:8.57, y2:2.63});
+var auto14:QuickObject = sim.addJoint({a:auto10.body, b:auto9.body, x1:7.07, y1:2.93, x2:9.43, y2:4.3});
+var auto15:QuickObject = sim.addJoint({a:auto10.body, b:auto8.body, x1:7.07, y1:2.8, x2:7.57, y2:4.53});
+var auto16:QuickObject = sim.addJoint({a:auto10.body, b:auto5.body, x1:7.13, y1:2.87, x2:5.57, y2:3.4});
+var auto17:QuickObject = sim.addJoint({a:auto5.body, b:auto8.body, x1:5.73, y1:3.4, x2:7.63, y2:4.63});
+var auto18:QuickObject = sim.addJoint({a:auto8.body, b:auto9.body, x1:7.63, y1:4.63, x2:9.47, y2:4.27});
+var auto19:QuickObject = sim.addJoint({a:auto9.body, b:auto7.body, x1:9.47, y1:4.27, x2:8.53, y2:2.6});
+var auto20:QuickObject = sim.addJoint({a:auto7.body, b:auto6.body, x1:8.53, y1:2.6, x2:6.93, y2:1.3});
+var auto21:QuickObject = sim.addJoint({a:auto6.body, b:auto4.body, x1:6.93, y1:1.3, x2:5.2, y2:1.77});
+var auto22:QuickObject = sim.addJoint({a:auto4.body, b:auto5.body, x1:5.2, y1:1.73, x2:5.6, y2:3.33});
